@@ -17,10 +17,6 @@
 		include_once '_class/conexao.php';
 
 		$conexao = new conexao();
-		$conexao->host = 'localhost';
-		$conexao->usuario = 'root';
-		$conexao->senha = '';
-		$conexao->bd = 'sistemavendas';
 		$conexao->conectar();
 		$totalFin = 0;
 

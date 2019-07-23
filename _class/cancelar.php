@@ -6,10 +6,6 @@ if (isset($_GET["codigo"])) {
     include_once 'conexao.php';
 
     $conexao = new conexao();
-    $conexao->host = 'localhost';
-    $conexao->usuario = 'root';
-    $conexao->senha = '';
-    $conexao->bd = 'sistemavendas';
     $conexao->conectar();
     $produtos = array();
 

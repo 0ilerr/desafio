@@ -2,10 +2,10 @@
 
 class conexao {
 
-	var $host;
-	var $usuario;
-	var $senha;
-	var $bd;
+	var $host = 'localhost';
+	var $usuario = 'root';
+	var $senha = '';
+	var $bd = 'sistemavendas';
 	var $con;
 	var $codigo;
 
